@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-21T23:46:34 IST" name="Suite" finished-at="2021-11-21T23:49:16 IST" duration-ms="161221">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.framework.bdd.runner.Runner@58326051]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-11-21T23:46:34 IST" name="Test" finished-at="2021-11-21T23:49:16 IST" duration-ms="161221">
+      <class name="com.framework.bdd.runner.Runner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.framework.bdd.runner.Runner@58326051]" started-at="2021-11-21T23:46:35 IST" name="setUpClass" finished-at="2021-11-21T23:46:35 IST" duration-ms="660" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@a323a5b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.framework.bdd.runner.Runner@58326051]" started-at="2021-11-21T23:46:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-21T23:46:53 IST" duration-ms="17405" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["BigSmall Giftcard page Validation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[BigSmall Site AutoMate]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//form[@id='AddToCartForm-738195636312']//button[@type='submit']"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-9SMDVF2', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58374}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fa2b4fbc8365db85187909f43a753220
+*** Element info: {Using=xpath, value=//form[@id='AddToCartForm-738195636312']//button[@type='submit']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//form[@id='AddToCartForm-738195636312']//button[@type='submit']"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-9SMDVF2', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58374}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fa2b4fbc8365db85187909f43a753220
+*** Element info: {Using=xpath, value=//form[@id='AddToCartForm-738195636312']//button[@type='submit']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy37.click(Unknown Source)
+at com.framework.bdd.stepDefination.GiftCardDefination.click_on_add_to_cart_below_product(GiftCardDefination.java:31)
+at ✽.click on add to cart below product(file:///C:/Users/Lenovo/eclipse-workspace/ComprehensiveBDD/./Features/Giftcard.feature:8)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.framework.bdd.runner.Runner@58326051]" started-at="2021-11-21T23:46:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-21T23:47:14 IST" duration-ms="20554" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["BigSmall All product tab Validation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[All products]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.framework.bdd.runner.Runner@58326051]" started-at="2021-11-21T23:47:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-21T23:47:37 IST" duration-ms="23345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["BigSmall Cart checkout page Validation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[BigSmall Site AutoMate]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.framework.bdd.runner.Runner@58326051]" started-at="2021-11-21T23:47:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-21T23:47:53 IST" duration-ms="15103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["BigSmall contact page Validation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Contact]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.framework.bdd.runner.Runner@58326051]" started-at="2021-11-21T23:47:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-21T23:47:59 IST" duration-ms="6553" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["HomePage Validation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Home page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.framework.bdd.runner.Runner@58326051]" started-at="2021-11-21T23:48:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-21T23:48:18 IST" duration-ms="14943" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["BigSmall Hover Action Validation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Hover Action]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.framework.bdd.runner.Runner@58326051]" started-at="2021-11-21T23:48:23 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-21T23:48:36 IST" duration-ms="13317" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["BigSmall Loginpage Validation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[login action]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.framework.bdd.runner.Runner@58326051]" started-at="2021-11-21T23:48:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-21T23:48:49 IST" duration-ms="12264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["BigSmall search tab Validation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Search Action]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.framework.bdd.runner.Runner@58326051]" started-at="2021-11-21T23:48:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-21T23:48:59 IST" duration-ms="6051" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["BigSmall Title Validation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[BigSmall Title Validation]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.framework.bdd.runner.Runner@58326051]" started-at="2021-11-21T23:48:59 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-21T23:49:12 IST" duration-ms="12485" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["BigSmall wishlist page Validation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Wishlist]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.framework.bdd.runner.Runner@58326051]" started-at="2021-11-21T23:49:16 IST" name="tearDownClass" finished-at="2021-11-21T23:49:16 IST" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.framework.bdd.runner.Runner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

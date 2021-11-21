@@ -1,0 +1,12 @@
+23:48:18.773 [main] INFO  com.framework.bdd.reusablecomponent.BaseClass - Select 1st Birthday gift
+23:48:18.997 [main] INFO  com.framework.bdd.reusablecomponent.BaseClass - desired page loaded successfully
+23:48:36.487 [main] INFO  com.framework.bdd.reusablecomponent.BaseClass - login Successful
+23:48:42.240 [main] INFO  com.framework.bdd.reusablecomponent.BaseClass - BaseURL loaded successfully
+23:48:42.243 [main] INFO  com.framework.bdd.reusablecomponent.BaseClass - User navigated to home page
+23:48:45.388 [main] INFO  com.framework.bdd.reusablecomponent.BaseClass - Enter Cricket in search tab
+23:48:48.545 [main] INFO  com.framework.bdd.reusablecomponent.BaseClass - product selected
+23:48:48.752 [main] INFO  com.framework.bdd.reusablecomponent.BaseClass - Product added to cart
+23:48:49.010 [main] INFO  com.framework.bdd.reusablecomponent.BaseClass - Displayed expected search result
+23:48:59.143 [main] INFO  com.framework.bdd.reusablecomponent.BaseClass - BaseURL loaded successfully
+23:48:59.215 [main] INFO  com.framework.bdd.reusablecomponent.BaseClass - Title Matched
+23:49:04.902 [main] INFO  com.framework.bdd.reusablecomponent.BaseClass - BaseURL loaded successfully

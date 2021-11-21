@@ -1,0 +1,250 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/9/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Nov 21 16:34:29 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>165 seconds (165377 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.framework.bdd.runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.framework.bdd.runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "BigSmall search tab Validation", "Optional[Search Action]"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.framework.bdd.stepDefination.SearchDefination.user_enter_a_product_name_and_click_on_search(SearchDefination.java:30)
+	at ?.user enter a product name &quot;cricket&quot; and click on search(file:///C:/Users/Lenovo/eclipse-workspace/ComprehensiveBDD/./Features/search.feature:6)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1511259379", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1511259379'><pre>java.lang.NullPointerException
+	at com.framework.bdd.stepDefination.SearchDefination.user_enter_a_product_name_and_click_on_search(SearchDefination.java:30)
+	at ?.user enter a product name &quot;cricket&quot; and click on search(file:///C:/Users/Lenovo/eclipse-workspace/ComprehensiveBDD/./Features/search.feature:6)
+</pre></div></td>
+<td>16</td>
+<td>com.framework.bdd.runner.Runner@428640fa</td></tr>
+<tr>
+<td title='com.framework.bdd.runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.framework.bdd.runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "BigSmall Loginpage Validation", "Optional[login action]"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.framework.bdd.stepDefination.LoginDefination.login_verification_page_title_is_verified(LoginDefination.java:64)
+	at ?.Login verification page title is verified(file:///C:/Users/Lenovo/eclipse-workspace/ComprehensiveBDD/./Features/login.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1559783274", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1559783274'><pre>java.lang.NullPointerException
+	at com.framework.bdd.stepDefination.LoginDefination.login_verification_page_title_is_verified(LoginDefination.java:64)
+	at ?.Login verification page title is verified(file:///C:/Users/Lenovo/eclipse-workspace/ComprehensiveBDD/./Features/login.feature:7)
+</pre></div></td>
+<td>20</td>
+<td>com.framework.bdd.runner.Runner@428640fa</td></tr>
+<tr>
+<td title='com.framework.bdd.runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.framework.bdd.runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "BigSmall Cart checkout page Validation", "Optional[BigSmall Site AutoMate]"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.framework.bdd.stepDefination.CheckoutDefination.add_one_product_to_cart_and_click_on_cart_section(CheckoutDefination.java:23)
+	at ?.Add one product to cart and click on cart section(file:///C:/Users/Lenovo/eclipse-workspace/ComprehensiveBDD/./Features/cartcheckout.feature:6)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1709930189", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1709930189'><pre>java.lang.NullPointerException
+	at com.framework.bdd.stepDefination.CheckoutDefination.add_one_product_to_cart_and_click_on_cart_section(CheckoutDefination.java:23)
+	at ?.Add one product to cart and click on cart section(file:///C:/Users/Lenovo/eclipse-workspace/ComprehensiveBDD/./Features/cartcheckout.feature:6)
+</pre></div></td>
+<td>12</td>
+<td>com.framework.bdd.runner.Runner@428640fa</td></tr>
+<tr>
+<td title='com.framework.bdd.runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.framework.bdd.runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "BigSmall contact page Validation", "Optional[Contact]"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.framework.bdd.stepDefination.ContactDefination.click_contact_us_tab_in_footer(ContactDefination.java:28)
+	at ?.click contact us tab in footer(file:///C:/Users/Lenovo/eclipse-workspace/ComprehensiveBDD/./Features/contactpage.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace498537855", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace498537855'><pre>java.lang.NullPointerException
+	at com.framework.bdd.stepDefination.ContactDefination.click_contact_us_tab_in_footer(ContactDefination.java:28)
+	at ?.click contact us tab in footer(file:///C:/Users/Lenovo/eclipse-workspace/ComprehensiveBDD/./Features/contactpage.feature:7)
+</pre></div></td>
+<td>11</td>
+<td>com.framework.bdd.runner.Runner@428640fa</td></tr>
+<tr>
+<td title='com.framework.bdd.runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.framework.bdd.runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "HomePage Validation", "Optional[Home page]"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.framework.bdd.stepDefination.HomePageDefinations.big_small_website_logo_should_be_displayed(HomePageDefinations.java:30)
+	at ?.BigSmall Website logo should be displayed(file:///C:/Users/Lenovo/eclipse-workspace/ComprehensiveBDD/./Features/homepage.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2078470810", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2078470810'><pre>java.lang.NullPointerException
+	at com.framework.bdd.stepDefination.HomePageDefinations.big_small_website_logo_should_be_displayed(HomePageDefinations.java:30)
+	at ?.BigSmall Website logo should be displayed(file:///C:/Users/Lenovo/eclipse-workspace/ComprehensiveBDD/./Features/homepage.feature:7)
+</pre></div></td>
+<td>8</td>
+<td>com.framework.bdd.runner.Runner@428640fa</td></tr>
+<tr>
+<td title='com.framework.bdd.runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.framework.bdd.runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "BigSmall Giftcard page Validation", "Optional[BigSmall Site AutoMate]"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//form[@id=&apos;AddToCartForm-738195636312&apos;]//button[@type=&apos;submit&apos;]&quot;}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-9SMDVF2&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63205}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 91056a61fddab100943e975fef1fbd4a
+*** Element info: {Using=xpath, value=//form[@id=&apos;AddToCartForm-738195636312&apos;]//button[@type=&apos;submit&apos;]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy36.click(Unknown Source)
+	at com.framework.bdd.stepDefination.GiftCardDefination.click_on_add_to_cart_below_product(GiftCardDefination.java:31)
+	at ?.click on add to cart below product(file:///C:/Users/Lenovo/eclipse-workspace/ComprehensiveBDD/./Features/Giftcard.feature:8)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1268237485", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1268237485'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//form[@id=&apos;AddToCartForm-738195636312&apos;]//button[@type=&apos;submit&apos;]&quot;}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-9SMDVF2&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63205}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 91056a61fddab100943e975fef1fbd4a
+*** Element info: {Using=xpath, value=//form[@id=&apos;AddToCartForm-738195636312&apos;]//button[@type=&apos;submit&apos;]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy36.click(Unknown Source)
+	at com.framework.bdd.stepDefination.GiftCardDefination.click_on_add_to_cart_below_product(GiftCardDefination.java:31)
+	at ?.click on add to cart below product(file:///C:/Users/Lenovo/eclipse-workspace/ComprehensiveBDD/./Features/Giftcard.feature:8)
+</pre></div></td>
+<td>20</td>
+<td>com.framework.bdd.runner.Runner@428640fa</td></tr>
+<tr>
+<td title='com.framework.bdd.runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.framework.bdd.runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "BigSmall Hover Action Validation", "Optional[Hover Action]"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.framework.bdd.stepDefination.HoverActionDefination.user_navigated_to_home_page(HoverActionDefination.java:36)
+	at ?.User navigated to Home Page(file:///C:/Users/Lenovo/eclipse-workspace/ComprehensiveBDD/./Features/hoveraction.feature:6)
+</pre></div><a href='#' onClick='toggleBox("stack-trace746436902", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace746436902'><pre>java.lang.NullPointerException
+	at com.framework.bdd.stepDefination.HoverActionDefination.user_navigated_to_home_page(HoverActionDefination.java:36)
+	at ?.User navigated to Home Page(file:///C:/Users/Lenovo/eclipse-workspace/ComprehensiveBDD/./Features/hoveraction.feature:6)
+</pre></div></td>
+<td>13</td>
+<td>com.framework.bdd.runner.Runner@428640fa</td></tr>
+<tr>
+<td title='com.framework.bdd.runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.framework.bdd.runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "BigSmall Title Validation", "Optional[BigSmall Title Validation]"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.framework.bdd.stepDefination.TitleDefination.validate_if_the_the_title_is_gifts_online_send_unique_unusual_gifts_in_india_buy_gifts_bigsmall_in(TitleDefination.java:24)
+	at ?.Validate if the the title is &quot;Gifts Online - Send Unique, Unusual Gifts in India, Buy Gifts? Bigsmall.in&quot;(file:///C:/Users/Lenovo/eclipse-workspace/ComprehensiveBDD/./Features/title.feature:6)
+</pre></div><a href='#' onClick='toggleBox("stack-trace406511188", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace406511188'><pre>java.lang.NullPointerException
+	at com.framework.bdd.stepDefination.TitleDefination.validate_if_the_the_title_is_gifts_online_send_unique_unusual_gifts_in_india_buy_gifts_bigsmall_in(TitleDefination.java:24)
+	at ?.Validate if the the title is &quot;Gifts Online - Send Unique, Unusual Gifts in India, Buy Gifts? Bigsmall.in&quot;(file:///C:/Users/Lenovo/eclipse-workspace/ComprehensiveBDD/./Features/title.feature:6)
+</pre></div></td>
+<td>13</td>
+<td>com.framework.bdd.runner.Runner@428640fa</td></tr>
+<tr>
+<td title='com.framework.bdd.runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.framework.bdd.runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "BigSmall All product tab Validation", "Optional[All products]"</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.framework.bdd.stepDefination.AllProductsDefination.validate_a_product_on_the_loaded_page(AllProductsDefination.java:54)
+	at ?.validate a product on the loaded page(file:///C:/Users/Lenovo/eclipse-workspace/ComprehensiveBDD/./Features/allproducts.feature:9)
+</pre></div><a href='#' onClick='toggleBox("stack-trace131582664", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace131582664'><pre>java.lang.NullPointerException
+	at com.framework.bdd.stepDefination.AllProductsDefination.validate_a_product_on_the_loaded_page(AllProductsDefination.java:54)
+	at ?.validate a product on the loaded page(file:///C:/Users/Lenovo/eclipse-workspace/ComprehensiveBDD/./Features/allproducts.feature:9)
+</pre></div></td>
+<td>19</td>
+<td>com.framework.bdd.runner.Runner@428640fa</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.framework.bdd.runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.framework.bdd.runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "BigSmall wishlist page Validation", "Optional[Wishlist]"</td>
+<td></td>
+<td>28</td>
+<td>com.framework.bdd.runner.Runner@428640fa</td></tr>
+</table><p>
+</body>
+</html>

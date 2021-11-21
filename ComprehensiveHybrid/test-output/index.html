@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\Lenovo\eclipse-workspace\ComprehensiveHybrid\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods, 2 failed,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.framework.testcases.TC_01_CreateAccount" class="method navigator-link" hash-for-method="createAccount">createAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.framework.testcases.TC_02_Login" class="method navigator-link" hash-for-method="validLogin(, pass@124)">validLogin(, pass@124)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.framework.testcases.TC_07_AllProducts" class="method navigator-link" hash-for-method="AllTab">AllTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.framework.testcases.TC_10_ContactPage" class="method navigator-link" hash-for-method="ContactPage">ContactPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.framework.testcases.TC_11_Hover" class="method navigator-link" hash-for-method="Hover">Hover</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.framework.testcases.TC_08_Cart" class="method navigator-link" hash-for-method="cartcheckout">cartcheckout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.framework.testcases.TC_09_Footer" class="method navigator-link" hash-for-method="footElemets">footElemets</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.framework.testcases.TC_04_GiftCard" class="method navigator-link" hash-for-method="gift">gift</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.framework.testcases.TC_05_Title" class="method navigator-link" hash-for-method="pageContains">pageContains</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.framework.testcases.TC_03_Search" class="method navigator-link" hash-for-method="search">search</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.framework.testcases.TC_02_Login" class="method navigator-link" hash-for-method="validLogin(yash1@gmail.com, pass@123)">validLogin(yash1@gmail.com, pass@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.framework.testcases.TC_02_Login" class="method navigator-link" hash-for-method="validLogin(yash1@gmail.com, password123)">validLogin(yash1@gmail.com, password123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.framework.testcases.TC_02_Login" class="method navigator-link" hash-for-method="validLogin(mahesh@gmail.com, )">validLogin(mahesh@gmail.com, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.framework.testcases.TC_05_Title" class="method navigator-link" hash-for-method="verifyTitle">verifyTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.framework.testcases.TC_06_WishList" class="method navigator-link" hash-for-method="wishList">wishList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.framework.testcases.TC_01_CreateAccount</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccount">
+                  </a> <!-- createAccount -->
+                  <span class="method-name">createAccount</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;grid__item medium-up--one-third&apos;]//p[@class=&apos;h5&apos;]&quot;}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-9SMDVF2&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61106}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fc8493efd213d82bf101c95fc2ee1eb1
+*** Element info: {Using=xpath, value=//div[@class=&apos;grid__item medium-up--one-third&apos;]//p[@class=&apos;h5&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy31.getText(Unknown Source)
+	at com.framework.testcases.TC_01_CreateAccount.createAccount(TC_01_CreateAccount.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.framework.testcases.TC_02_Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validLogin(, pass@124)">
+                  </a> <!-- validLogin(, pass@124) -->
+                  <span class="method-name">validLogin</span>
+                  <span class="parameters">(, pass@124)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.framework.testcases.TC_02_Login.validLogin(TC_02_Login.java:49)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.framework.testcases.TC_11_Hover</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Hover">
+                  </a> <!-- Hover -->
+                  <span class="method-name">Hover</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.framework.testcases.TC_09_Footer</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="footElemets">
+                  </a> <!-- footElemets -->
+                  <span class="method-name">footElemets</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.framework.testcases.TC_07_AllProducts</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AllTab">
+                  </a> <!-- AllTab -->
+                  <span class="method-name">AllTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.framework.testcases.TC_06_WishList</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="wishList">
+                  </a> <!-- wishList -->
+                  <span class="method-name">wishList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.framework.testcases.TC_10_ContactPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ContactPage">
+                  </a> <!-- ContactPage -->
+                  <span class="method-name">ContactPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.framework.testcases.TC_02_Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validLogin(yash1@gmail.com, pass@123)">
+                  </a> <!-- validLogin(yash1@gmail.com, pass@123) -->
+                  <span class="method-name">validLogin</span>
+                  <span class="parameters">(yash1@gmail.com, pass@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validLogin(yash1@gmail.com, password123)">
+                  </a> <!-- validLogin(yash1@gmail.com, password123) -->
+                  <span class="method-name">validLogin</span>
+                  <span class="parameters">(yash1@gmail.com, password123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validLogin(mahesh@gmail.com, )">
+                  </a> <!-- validLogin(mahesh@gmail.com, ) -->
+                  <span class="method-name">validLogin</span>
+                  <span class="parameters">(mahesh@gmail.com, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.framework.testcases.TC_04_GiftCard</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="gift">
+                  </a> <!-- gift -->
+                  <span class="method-name">gift</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.framework.testcases.TC_03_Search</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="search">
+                  </a> <!-- search -->
+                  <span class="method-name">search</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.framework.testcases.TC_08_Cart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="cartcheckout">
+                  </a> <!-- cartcheckout -->
+                  <span class="method-name">cartcheckout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.framework.testcases.TC_05_Title</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="pageContains">
+                  </a> <!-- pageContains -->
+                  <span class="method-name">pageContains</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitle">
+                  </a> <!-- verifyTitle -->
+                  <span class="method-name">verifyTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Lenovo\eclipse-workspace\ComprehensiveHybrid\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.framework.utilities.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.framework.testcases.TC_01_CreateAccount&quot;/&gt;
+      &lt;class name=&quot;com.framework.testcases.TC_02_Login&quot;/&gt;
+      &lt;class name=&quot;com.framework.testcases.TC_03_Search&quot;/&gt;
+      &lt;class name=&quot;com.framework.testcases.TC_04_GiftCard&quot;/&gt;
+      &lt;class name=&quot;com.framework.testcases.TC_05_Title&quot;/&gt;
+      &lt;class name=&quot;com.framework.testcases.TC_06_WishList&quot;/&gt;
+      &lt;class name=&quot;com.framework.testcases.TC_07_AllProducts&quot;/&gt;
+      &lt;class name=&quot;com.framework.testcases.TC_08_Cart&quot;/&gt;
+      &lt;class name=&quot;com.framework.testcases.TC_09_Footer&quot;/&gt;
+      &lt;class name=&quot;com.framework.testcases.TC_10_ContactPage&quot;/&gt;
+      &lt;class name=&quot;com.framework.testcases.TC_11_Hover&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (11 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'createAccount')
+data.setCell(0, 2, 'com.framework.testcases.TC_01_CreateAccount')
+data.setCell(0, 3, 14709);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'cartcheckout')
+data.setCell(1, 2, 'com.framework.testcases.TC_08_Cart')
+data.setCell(1, 3, 9837);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Hover')
+data.setCell(2, 2, 'com.framework.testcases.TC_11_Hover')
+data.setCell(2, 3, 9069);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ContactPage')
+data.setCell(3, 2, 'com.framework.testcases.TC_10_ContactPage')
+data.setCell(3, 3, 7618);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'AllTab')
+data.setCell(4, 2, 'com.framework.testcases.TC_07_AllProducts')
+data.setCell(4, 3, 5412);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validLogin')
+data.setCell(5, 2, 'com.framework.testcases.TC_02_Login')
+data.setCell(5, 3, 5391);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'wishList')
+data.setCell(6, 2, 'com.framework.testcases.TC_06_WishList')
+data.setCell(6, 3, 5214);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'search')
+data.setCell(7, 2, 'com.framework.testcases.TC_03_Search')
+data.setCell(7, 3, 5042);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'validLogin')
+data.setCell(8, 2, 'com.framework.testcases.TC_02_Login')
+data.setCell(8, 3, 4993);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validLogin')
+data.setCell(9, 2, 'com.framework.testcases.TC_02_Login')
+data.setCell(9, 3, 4889);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'gift')
+data.setCell(10, 2, 'com.framework.testcases.TC_04_GiftCard')
+data.setCell(10, 3, 2551);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'validLogin')
+data.setCell(11, 2, 'com.framework.testcases.TC_02_Login')
+data.setCell(11, 3, 2210);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'footElemets')
+data.setCell(12, 2, 'com.framework.testcases.TC_09_Footer')
+data.setCell(12, 3, 376);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'pageContains')
+data.setCell(13, 2, 'com.framework.testcases.TC_05_Title')
+data.setCell(13, 3, 257);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyTitle')
+data.setCell(14, 2, 'com.framework.testcases.TC_05_Title')
+data.setCell(14, 3, 93);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">20 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.framework.testcases.TC_09_Footer</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Before</span>
+                <br/>
+                <span class="ignored-method-name">after</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.framework.testcases.TC_11_Hover</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Before</span>
+                <br/>
+                <span class="ignored-method-name">after</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.framework.testcases.TC_07_AllProducts</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Before</span>
+                <br/>
+                <span class="ignored-method-name">after</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.framework.testcases.TC_10_ContactPage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Before</span>
+                <br/>
+                <span class="ignored-method-name">after</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.framework.testcases.TC_06_WishList</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Before</span>
+                <br/>
+                <span class="ignored-method-name">after</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.framework.testcases.TC_02_Login</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Before</span>
+                <br/>
+                <span class="ignored-method-name">after</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.framework.testcases.TC_03_Search</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Before</span>
+                <br/>
+                <span class="ignored-method-name">after</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.framework.testcases.TC_04_GiftCard</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Before</span>
+                <br/>
+                <span class="ignored-method-name">after</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.framework.testcases.TC_08_Cart</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Before</span>
+                <br/>
+                <span class="ignored-method-name">after</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.framework.testcases.TC_05_Title</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Before</span>
+                <br/>
+                <span class="ignored-method-name">after</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.framework.testcases.TC_01_CreateAccount</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">Before</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">237 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createAccount</span>
+                <span class="method-start">10478 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">25338 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.framework.testcases.TC_02_Login</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">26078 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validLogin(yash1@gmail.com, pass@123)</span>
+                <span class="method-start">32159 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validLogin(, pass@124)</span>
+                <span class="method-start">37054 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validLogin(yash1@gmail.com, password123)</span>
+                <span class="method-start">39422 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validLogin(mahesh@gmail.com, )</span>
+                <span class="method-start">44417 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">49810 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.framework.testcases.TC_03_Search</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">50536 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">search</span>
+                <span class="method-start">57567 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">62610 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.framework.testcases.TC_04_GiftCard</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">63346 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">gift</span>
+                <span class="method-start">68406 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">70959 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.framework.testcases.TC_05_Title</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">71752 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyTitle</span>
+                <span class="method-start">77334 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">pageContains</span>
+                <span class="method-start">77429 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">77687 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.framework.testcases.TC_06_WishList</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">78428 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">wishList</span>
+                <span class="method-start">82978 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">88194 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.framework.testcases.TC_07_AllProducts</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">88949 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">AllTab</span>
+                <span class="method-start">94785 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">100199 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.framework.testcases.TC_08_Cart</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">100970 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">cartcheckout</span>
+                <span class="method-start">105685 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">115524 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.framework.testcases.TC_09_Footer</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">116266 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">footElemets</span>
+                <span class="method-start">120847 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">121227 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.framework.testcases.TC_10_ContactPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">121962 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ContactPage</span>
+                <span class="method-start">126972 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">134591 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.framework.testcases.TC_11_Hover</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">135326 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Hover</span>
+                <span class="method-start">139483 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">148553 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.framework.testcases.TC_01_CreateAccount</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">after</span>
+                <span class="method-start">149659 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

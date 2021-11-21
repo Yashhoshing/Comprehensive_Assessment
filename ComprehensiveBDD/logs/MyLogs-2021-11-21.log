@@ -1,0 +1,20 @@
+23:46:42.888 [main] INFO  com.framework.bdd.reusablecomponent.BaseClass - BaseURL loaded successfully
+23:47:00.166 [main] INFO  com.framework.bdd.reusablecomponent.BaseClass - User navigated to all product tab
+23:47:06.437 [main] INFO  com.framework.bdd.reusablecomponent.BaseClass - BaseURL loaded successfully
+23:47:10.413 [main] INFO  com.framework.bdd.reusablecomponent.BaseClass - User clicked on all of it on header tab
+23:47:13.966 [main] INFO  com.framework.bdd.reusablecomponent.BaseClass - navigated to 2nd page using next arrow
+23:47:14.201 [main] INFO  com.framework.bdd.reusablecomponent.BaseClass - Product is successfully displayed
+23:47:20.523 [main] INFO  com.framework.bdd.reusablecomponent.BaseClass - BaseURL loaded successfully
+23:47:26.493 [main] INFO  com.framework.bdd.reusablecomponent.BaseClass - clicked on the product
+23:47:26.972 [main] INFO  com.framework.bdd.reusablecomponent.BaseClass - product added to cart
+23:47:30.779 [main] INFO  com.framework.bdd.reusablecomponent.BaseClass - Navigated to cart
+23:47:31.741 [main] INFO  com.framework.bdd.reusablecomponent.BaseClass - Navigating to checkout page
+23:47:37.794 [main] INFO  com.framework.bdd.reusablecomponent.BaseClass - successfully navigated to the checkout page
+23:47:44.764 [main] INFO  com.framework.bdd.reusablecomponent.BaseClass - BaseURL loaded successfully
+23:47:46.945 [main] INFO  com.framework.bdd.reusablecomponent.BaseClass - contact page loaded successfully
+23:47:47.308 [main] INFO  com.framework.bdd.reusablecomponent.BaseClass - Entered the name
+23:47:47.459 [main] INFO  com.framework.bdd.reusablecomponent.BaseClass - Entered the email address
+23:47:53.112 [main] INFO  com.framework.bdd.reusablecomponent.BaseClass - message sent successfully
+23:47:59.520 [main] INFO  com.framework.bdd.reusablecomponent.BaseClass - BaseURL loaded successfully
+23:47:59.523 [main] INFO  com.framework.bdd.reusablecomponent.BaseClass - Homepage loaded successfully
+23:48:09.861 [main] INFO  com.framework.bdd.reusablecomponent.BaseClass - Hover on the Birthday section

@@ -1,0 +1,21 @@
+00:35:21.800 [main] INFO  com.framework.reusablecomponent.BaseClass - Login successful
+00:35:22.532 [main] INFO  com.framework.reusablecomponent.BaseClass - iN CHROME Browser
+00:35:31.589 [main] INFO  com.framework.reusablecomponent.BaseClass - Search Cricket in Search box
+00:35:31.589 [main] INFO  com.framework.reusablecomponent.BaseClass - Click enter
+00:35:34.250 [main] INFO  com.framework.reusablecomponent.BaseClass - Click on product
+00:35:34.383 [main] INFO  com.framework.reusablecomponent.BaseClass - Title matched on both pages
+00:35:34.604 [main] INFO  com.framework.reusablecomponent.BaseClass - Adding two items by clicking + icon
+00:35:35.342 [main] INFO  com.framework.reusablecomponent.BaseClass - iN CHROME Browser
+00:35:42.297 [main] INFO  com.framework.reusablecomponent.BaseClass - user navigated to home page
+00:35:42.297 [main] INFO  com.framework.reusablecomponent.BaseClass - Click on gift card from uupper section
+00:35:42.627 [main] INFO  com.framework.reusablecomponent.BaseClass - change the price to 2000
+00:35:42.754 [main] INFO  com.framework.reusablecomponent.BaseClass - click on Add to cart
+00:35:42.952 [main] INFO  com.framework.reusablecomponent.BaseClass - Gift card added successfully
+00:35:43.748 [main] INFO  com.framework.reusablecomponent.BaseClass - iN CHROME Browser
+00:35:49.422 [main] INFO  com.framework.reusablecomponent.BaseClass - Title Matched
+00:35:49.680 [main] INFO  com.framework.reusablecomponent.BaseClass - Component displayed on page
+00:35:50.425 [main] INFO  com.framework.reusablecomponent.BaseClass - iN CHROME Browser
+00:35:57.197 [main] INFO  com.framework.reusablecomponent.BaseClass - User clicked on Home decore
+00:35:59.152 [main] INFO  com.framework.reusablecomponent.BaseClass - user clicked on Metalic cage product
+00:36:00.029 [main] INFO  com.framework.reusablecomponent.BaseClass - User clicked on wishlist
+00:36:00.030 [main] INFO  com.framework.reusablecomponent.BaseClass - User navigated to Wishlist page

@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">13</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">149,054</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.framework.testcases.TC_01_CreateAccount</td><td><a href="#m0">createAccount</a></td><td rowspan="1">1637521482473</td><td rowspan="1">14709</td></tr><tr class="failedodd"><td rowspan="1">com.framework.testcases.TC_02_Login</td><td><a href="#m1">validLogin</a></td><td rowspan="1">1637521509049</td><td rowspan="1">2210</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.framework.testcases.TC_02_Login</td><td><a href="#m2">validLogin</a></td><td rowspan="3">1637521504154</td><td rowspan="3">4889</td></tr><tr class="passedeven"><td><a href="#m3">validLogin</a></td></tr><tr class="passedeven"><td><a href="#m4">validLogin</a></td></tr><tr class="passedodd"><td rowspan="1">com.framework.testcases.TC_03_Search</td><td><a href="#m5">search</a></td><td rowspan="1">1637521529562</td><td rowspan="1">5042</td></tr><tr class="passedeven"><td rowspan="1">com.framework.testcases.TC_04_GiftCard</td><td><a href="#m6">gift</a></td><td rowspan="1">1637521540401</td><td rowspan="1">2551</td></tr><tr class="passedodd"><td rowspan="2">com.framework.testcases.TC_05_Title</td><td><a href="#m7">pageContains</a></td><td rowspan="1">1637521549424</td><td rowspan="1">257</td></tr><tr class="passedodd"><td><a href="#m8">verifyTitle</a></td><td rowspan="1">1637521549329</td><td rowspan="1">93</td></tr><tr class="passedeven"><td rowspan="1">com.framework.testcases.TC_06_WishList</td><td><a href="#m9">wishList</a></td><td rowspan="1">1637521554973</td><td rowspan="1">5214</td></tr><tr class="passedodd"><td rowspan="1">com.framework.testcases.TC_07_AllProducts</td><td><a href="#m10">AllTab</a></td><td rowspan="1">1637521566780</td><td rowspan="1">5412</td></tr><tr class="passedeven"><td rowspan="1">com.framework.testcases.TC_08_Cart</td><td><a href="#m11">cartcheckout</a></td><td rowspan="1">1637521577680</td><td rowspan="1">9837</td></tr><tr class="passedodd"><td rowspan="1">com.framework.testcases.TC_09_Footer</td><td><a href="#m12">footElemets</a></td><td rowspan="1">1637521592842</td><td rowspan="1">376</td></tr><tr class="passedeven"><td rowspan="1">com.framework.testcases.TC_10_ContactPage</td><td><a href="#m13">ContactPage</a></td><td rowspan="1">1637521598967</td><td rowspan="1">7618</td></tr><tr class="passedodd"><td rowspan="1">com.framework.testcases.TC_11_Hover</td><td><a href="#m14">Hover</a></td><td rowspan="1">1637521611478</td><td rowspan="1">9069</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">com.framework.testcases.TC_01_CreateAccount#createAccount</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;grid__item medium-up--one-third&apos;]//p[@class=&apos;h5&apos;]&quot;}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-9SMDVF2&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61106}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fc8493efd213d82bf101c95fc2ee1eb1
+*** Element info: {Using=xpath, value=//div[@class=&apos;grid__item medium-up--one-third&apos;]//p[@class=&apos;h5&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy31.getText(Unknown Source)
+	at com.framework.testcases.TC_01_CreateAccount.createAccount(TC_01_CreateAccount.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.framework.testcases.TC_02_Login#validLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td></td><td>pass@124</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at com.framework.testcases.TC_02_Login.validLogin(TC_02_Login.java:49)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.framework.testcases.TC_02_Login#validLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>yash1@gmail.com</td><td>pass@123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.framework.testcases.TC_02_Login#validLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>yash1@gmail.com</td><td>password123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.framework.testcases.TC_02_Login#validLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>mahesh@gmail.com</td><td></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.framework.testcases.TC_03_Search#search</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.framework.testcases.TC_04_GiftCard#gift</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.framework.testcases.TC_05_Title#pageContains</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.framework.testcases.TC_05_Title#verifyTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.framework.testcases.TC_06_WishList#wishList</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.framework.testcases.TC_07_AllProducts#AllTab</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.framework.testcases.TC_08_Cart#cartcheckout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.framework.testcases.TC_09_Footer#footElemets</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.framework.testcases.TC_10_ContactPage#ContactPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.framework.testcases.TC_11_Hover#Hover</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
